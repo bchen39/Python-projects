@@ -32,7 +32,8 @@ The list automatically refreshes every 5 minutes, after which the previously del
 # Stopping container
 
 ```bash
-docker ps then copy the container id
+docker ps 
+# copy the container id shown in ps
 docker stop container_id
 docker rm container_id
 ```
